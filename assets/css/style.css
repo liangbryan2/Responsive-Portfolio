@@ -213,13 +213,21 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 640px) {
+    .header {
+        box-sizing: border-box;
+        max-width: 100vw;    
+    }
+
     p.name {
-        width: 100vw;
-        margin: 0;
+        padding: 25px 0 25px 0;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
         margin-bottom: 20px;
     }
 
     nav {
+        width: 100%;
         float: none;
         text-align: center;
     }
