@@ -13,7 +13,8 @@ Building a professional portfolio while learning how to use media queries in CSS
 # Images
 <!-- take a picture of the image and add it into the readme  -->
 <!-- ![image title](path or link to image) -->
-![index](index.png)
+![index](images/index.png)
+![index-mobile](images/index-mobile.png)
 
 # Technology Used
 <!-- make a list of technology used -->
@@ -36,18 +37,31 @@ Building a professional portfolio while learning how to use media queries in CSS
 <!-- if you want to put blockquotes use a > -->
 
 ``` css
-@media screen and (max-width: 980px) { 
-    nav {
-        margin-right: 40px;
-    }
-    
-    p.name {
-        margin-left: 40px;
+@media screen and (max-width: 768px) {
+    p.tag {
+        font-size: 0.5em;
     }
 
-    section {
-        max-width: 768px;
-        margin: 40px 40px;
+    header {
+        height: 132px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #navbar {
+        justify-content: center!important;
+        align-items: center;
+    }
+
+    #header-row, #header-container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100vw;
     }
 }
 ```
