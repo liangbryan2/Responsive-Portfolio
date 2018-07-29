@@ -8,7 +8,7 @@ Building a professional portfolio while learning how to use media queries in CSS
 # Link to Deployed Site
 <!-- make a link to the deployed site --> 
 <!-- [What the user will see](the link to the deployed site) -->
-[Basic Portfolio](https://liangbryan2.github.io/Responsive-Portfolio/)
+[Responsive Portfolio](https://liangbryan2.github.io/Responsive-Portfolio/)
 
 # Images
 <!-- take a picture of the image and add it into the readme  -->
